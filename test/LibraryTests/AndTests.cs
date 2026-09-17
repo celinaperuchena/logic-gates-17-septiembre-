@@ -12,7 +12,7 @@ namespace Ucu.Poo.LogicGates.Tests
         public void TrueAndTrueReturnsTrue()
         {
             LogicValue input1 = new True();
-            LogicValue input2 = new True();gt
+            LogicValue input2 = new True();
 
             And gate = new And(input1, input2);
 
